@@ -1,0 +1,454 @@
+body, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input, textarea {
+  color: #666;
+  font-size: 14px;
+  font-family: Microsoft Yahei, 宋体, arial, verdana, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  outline: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+  /*IE/7/6*/
+}
+body {
+  background: #f3f3f3;
+  ;
+}
+
+/*头部样式*/
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+}
+
+/*公用样式*/
+
+.main {
+  width: 1200px;
+  background: #fff;
+  margin: -100px auto 0;
+  overflow: hidden;
+  position: relative;
+  padding: 30px 0;
+}
+.NewBox {
+  width: 950px;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+/*图片新闻开始*/
+
+.PictureSwitching {
+  width: 500px;
+  position: relative;
+  float: left;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.PictureSwitchingShow, .PictureSwitchingBar {
+  position: absolute;
+  left: 0;
+}
+.PictureSwitchingShow {
+  top: 0;
+}
+.PictureSwitchingShow ul {
+  overflow: hidden;
+  *zoom: 1;
+}
+.PictureSwitchingShow li {
+  float: left;
+}
+.PictureSwitchingShow img {
+  width: 500px;
+  height: 330px;
+}
+.PictureSwitchingBar {
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  background: url(PictureSwitchingBarBg.png);
+}
+.PictureSwitchingTitle {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.PictureSwitchingTitle li {
+  list-style: none;
+}
+.PictureSwitchingTitle a {
+  padding: 0 16px;
+  font-size: 16px;
+  font-family: microsoft yahei;
+  color: #fff;
+  display: none;
+  line-height: 40px;
+}
+.PictureSwitchingTitle a:first-child {
+  display: inline;
+}
+.PictureSwitchingNav {
+  position: absolute;
+  right: 20px;
+  bottom: 14px;
+  overflow: hidden;
+  *zoom: 1;
+}
+.PictureSwitchingNav li {
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  float: left;
+  font-size: 0;
+  margin: 0 4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.PictureSwitchingNav li.active {
+  background: #0066fe;
+}
+
+/*图片新闻结束*/
+
+
+/*教育动态*/
+
+.EducationDynamics {
+  width: 415px;
+  float: right;
+  overflow: hidden;
+}
+.EducationDynamicstit {
+  width: 415px;
+  height: 56px;
+  overflow: hidden;
+  border-bottom: 2px solid #eee;
+}
+.EducationDynamicstit_a {
+  color: #35a0ff;
+  font-weight: bold;
+  font-size: 24px;
+  float: left;
+  width: 98px;
+  height: 54px;
+  line-height: 54px;
+  border-bottom: 2px solid #35a0ff;
+}
+.EducationDynamicsMore {
+  float: right;
+  font-size: 16px;
+  height: 54px;
+  line-height: 54px;
+  color: #35a0ff;
+}
+.EducationDynamicscon {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 42px;
+}
+.EducationDynamicscon ul {
+  display: block;
+}
+.EducationDynamicscon li {
+  width: 405px;
+  color: #666666;
+  border-bottom: 1px dashed #d8d8d8;
+  background: url(dian.png) no-repeat left;
+  padding-left: 10px;
+}
+.EducationDynamicscon li:last-child {
+  border: none;
+}
+.EducationDynamicscon li a {
+  display: block;
+  color: #666666;
+  font-size: 16px;
+  height: 45px;
+  line-height: 45px;
+}
+.EducationDynamicscon li span {
+  display: block;
+  padding-left: 22px;
+  color: #999999;
+  font-size: 12px;
+  height: 18px;
+  line-height: 12px;
+}
+.TitleImg {
+  background: url(H1Tit.png) no-repeat;
+  width: 470px;
+  height: 100px;
+  margin: 25px auto;
+  text-align: center;
+  line-height: 88px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/*学位申请*/
+
+.Degrees-box {
+  width: 950px;
+  overflow: hidden;
+  margin: 0 auto !important;
+}
+.Degrees-box-ul {
+  display: block;
+  width: 950px;
+  border-radius: 50px;
+  background: #eaf5f9;
+  overflow: hidden;
+  color: #35A0FF;
+}
+.Degrees-box-ul li {
+  float: left;
+  width: 475px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50px;
+  text-align: center;
+}
+.DegreesLiBg {
+  background: #35a0ff;
+  color: #fff;
+}
+.IMGDiv {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.Work-box {
+  width: 950px;
+  overflow: hidden;
+}
+.Work-box-ul {
+  overflow: hidden;
+  padding: 20px 0 40px;
+  background: #fff;
+}
+.Work-box-ul li {
+  border: 2px solid #2299ff;
+  line-height: 30px;
+  height: 75px;
+  width: 90px;
+  border-radius: 50px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 11px;
+  /*color: #1b68ff;*/
+  font-size: 18px;
+  padding-top: 15px;
+}
+.Twohover {
+  background: #35a0ff;
+  border: none;
+  color: #fff;
+}
+.JuniorOne, .JuniorMiddleSchool {
+  border: 1px solid #d8eaf9;
+  background: #eaf5f9;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.JuniorOneTxt, .JuniorMiddleSchoolTxt {
+  width: 880px;
+  overflow-y: scroll;
+  min-height: 80px;
+  margin: 35px 35px;
+}
+
+/*学位类型及录取原则*/
+
+.DegreeTypePrinciple{
+  width: 1200px;
+  height: 592px;
+  overflow: hidden;
+  margin: 45px auto 0 !important;
+  background: url(DegreeTypeBoxBg.png) no-repeat;
+}
+.IntegralEntrance{
+	width: 950px;
+	height: 66px;
+	margin: 0 auto;
+}
+.IntegralEntrancefl{
+	width: 119px;
+	height: 66px;
+	line-height: 48px;
+	text-align: center;
+	float: left;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	background: url(IntegralEntranceflBg.png) no-repeat;
+}
+.IntegralEntrancefr{
+	width: 817px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #35A0FF;
+	float: right;
+	background: url(IntegralEntrancefrBg.png);
+}
+.DegreeType{
+	width: 950px;
+	height: 66px;
+	margin: 0 auto;
+}
+.DegreeTypeFl{
+	width: 120px;
+	height: 327px;
+	float: left;
+	background: url(DegreeTypeBg.png) no-repeat center;
+}
+.DegreeTypeFlH3{
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+.DegreeTypeFlUl{
+	width: 120px;
+	overflow: hidden;
+	text-align: center;
+}
+.DegreeTypeFlUl li{
+	width: 120px;
+	height: 43px;
+	line-height: 43px;
+	color: #fff;
+	font-size: 16px;
+}
+.DegreeTypeActive{
+	background: #fff;
+	border-left: 2px solid #20b1b6;
+	font-weight: bold;
+}
+.DegreeTypeFr{
+	width: 830px;
+	height: 327px;
+	float: right;
+	background: #fff;
+	border-radius: 20px;
+}
+.DegreeTypeFrCon{
+	width: 711px;
+	height: 266px;
+	border: 2px solid #d8eaf9;
+	background: #eaf5f9;
+	border-radius: 5px;
+	margin: 30px 59px;
+}
+.DegreeTypeFrCon h4{
+	font-size: 18px;
+	font-weight: bold;
+	color: #35A0FF;
+	text-align: center;
+	line-height: 50px;
+}
+.FilletRectangle{
+	width: 567px;
+	height: 1px;
+	margin: 0px auto;
+	border: 0;
+	background: url(FilletRectangle.png) no-repeat;
+}
+.DegreeTypeFrCon p{
+	font-size: 16px;
+	line-height: 25px;
+	margin: 10px 10px;
+	color: #35A0FF;
+}
+/*相关资讯*/
+.RelatedInformation{
+	width: 950px;
+	overflow: hidden;
+	margin: 0px auto;
+	padding: 20px 0;
+}
+.RelatedInformationBox{
+	width: 950px;
+	overflow: hidden;
+}
+/*热点问答*/
+.Hotspot {
+  width: 415px;
+  float: left;
+  overflow: hidden;
+}
+/*相关资讯图片*/
+.RelatedInformationImg{
+	width: 421px;
+	float: right;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.RelatedInformationImg1,.RelatedInformationImg2,.RelatedInformationImg3,.RelatedInformationImg4{
+	width: 200px;
+	height: 110px;
+	line-height: 110px;
+	float: left;
+	color: #2fa3bf;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow:-2px -2px 0px #fff;
+}	
+.RelatedInformationImg1{
+	background: url(RelatedInformationImg1.png) no-repeat;
+	margin:0 20px 20px 0 ;
+}
+.RelatedInformationImg2{
+	background: url(RelatedInformationImg2.png) no-repeat;
+	margin-bottom: 20px;
+}
+.RelatedInformationImg3{
+	background: url(RelatedInformationImg3.png) no-repeat;
+	margin-right: 20px;
+}
+.RelatedInformationImg4{
+	background: url(RelatedInformationImg4.png) no-repeat;
+}
+.RelatedInformationImg1,.RelatedInformationImg3{
+	
+}
